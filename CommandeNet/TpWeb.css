@@ -1,0 +1,241 @@
+h1,h2
+{
+	text-align:center;
+	max-height:100px;
+	max-width:350px;
+	border: 1px solid black;
+}
+
+body
+{
+	margin: 0 auto;
+	width: 1200px;
+	background-color: silver;
+}
+
+.Tête
+{
+	position: relative;
+	top:10px;
+	border: 1px dashed black;
+	max-height:120px;
+}
+
+h1
+{
+	position: relative;
+	top:10px;
+	left:200px;
+}
+
+h2
+{
+	position: relative;
+	top:-70px;
+	left:600px;
+}
+
+table
+{
+	position: relative;
+	top:20px;
+	border-width: 1.5px;
+	border-color: black;
+	border-style: solid;
+	width:1200px;
+}
+
+tr
+{
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+}
+
+.button
+{
+	position:relative;
+	top:-40px;
+	left:870px;
+	width:100px;
+	height:30px;
+	color:white;
+	background-color: grey;
+}
+
+th
+{
+	background-color: navy;
+	color:white;
+}
+
+p
+{
+	display:inline;
+}
+
+.Prénom
+{
+	margin:0 0 0 80px;
+}
+
+.Conf
+{
+	margin:0 0 0 80px;
+}
+
+.Ville
+{
+	margin:0 0 0 80px;
+}
+
+.CP
+{
+	margin:0 0 0 80px;
+}
+
+.T
+{
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+	text-align: center;
+}
+
+.T2
+{
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+	text-align: center;
+	color: purple;
+}
+
+.T3
+{
+	text-decoration: line-through;
+	font-size:12px;
+}
+
+.E
+{
+	font-size:12px;
+	color:red;
+}
+
+.Rens
+{
+	font-size:12px;
+	color:purple;
+}
+
+.Civilité,.Nom,.Adresse,.Email,.Ad2
+{
+	position:relative;
+	left:10px;
+}
+
+.cPrénom
+{
+	margin:0 0 0 154px;
+	width: 300px;
+}
+
+.cNom
+{
+	margin:0 0 0 60px;
+	width: 300px;
+}
+
+.cAdresse
+{
+	margin:0 0 0 40px;
+	width: 300px;
+}
+
+.cAdresse2
+{
+	margin:0 0 0 112px;
+	width: 300px;
+}
+
+.cEmail
+{
+	margin:0 0 0 53px;
+	width: 300px;
+}
+
+.cCP
+{
+	margin:0 0 0 128px;
+	width: 300px;
+}
+
+.cVille
+{
+	margin:0 0 0 173px;
+	width: 300px;
+}
+
+.cConf
+{
+	margin:0 0 0 60px;
+	width: 300px;
+}
+
+.cCivilité
+{
+	margin:0 0 0 40px;
+}
+
+.Recap
+{
+	border-color: black;
+	border-style: solid;
+	margin-top: 30px;
+	border-width: 1px;
+}
+
+.Info
+{
+	margin:0 0 0 20px;
+}
+
+.De
+{
+	background-color: navy;
+	margin-top: 20px;
+	color:white;
+}
+
+.Contenu
+{
+	background-color: navy;
+	margin-top: 20px;
+	color:white;
+}
+
+.Piece
+{
+	background-color: navy;
+	margin-top: 20px;
+	color:white;
+}
+
+.A
+{
+	background-color: navy;
+	margin-top: 20px;
+	color:white;
+}
+
+.button3
+{
+	position:relative;
+	top:180px;
+	left:870px;
+	width:100px;
+	height:30px;
+	color:white;
+	background-color: grey;
+}

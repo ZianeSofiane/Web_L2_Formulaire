@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<meta charset= "utf-8"/>
+		<link rel="stylesheet" href="TpWeb.css" />
+		<TITLE> Salon de la decoration </TITLE>
+	</head>
+	<body>
+		<div class="Tête">
+			<h1>Salon de la décoration</h1>
+			<h2>Offre uniqueement sur internet: </br> 1 entrée achetée la deuxième à moitié prix !</h2>
+		</div>
+		
+		<form name="Acceuil" action="Page2.php" method="post">
+			<table>
+				<tr>
+					<th class="T"> Votre réservation </th>
+					<th class="T"> Nombre de billets </th>
+					<th class="T"> Offre Web </th>
+					<th class="T"> Total TTC </th>
+				</tr>
+				<tr>
+					<td class="T"> Salon de la décoration Lille Grand Palais </br> 6,7,8 Mars 2009 </td>
+					<td class="T"> <input type ="number" min ='1' step ='1' name= "nbbillets"/> </td>
+					<td class="T2" style="font-weight:bold"> La 2ème place à moitié prix </br> pour une entrée achetée </td>
+					<td class="T"><p class="T3"> 16€ TTC </br><p class="T2" style="font-weight:bold"> 12€ TTC </td>
+				</tr>
+			</table>
+		
+			<table>
+				<tr>
+					<th> Vous êtes? </th>
+				</tr>
+				<tr>
+					<td>
+						<INPUT TYPE="radio" NAME="Choix1" VALUE="particulier"> Un Particulier
+						<INPUT TYPE="radio" NAME="Choix1" VALUE="professionnel"> Un Professionnel
+					</td>
+				</tr> 
+			</table>
+		
+			<table>
+				<tr>
+					<th>Adresse de facturation</th>
+				</tr>
+				<tr> 
+					<td class="Civilité"></br>Civilité : * <select name="civilité" class="cCivilité" id="civilité">
+					<option value="M">Homme</option>
+					<option value="Mme">Femme</option>
+					<option value="">Autre</option>    
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td class="Nom"></br> <label for="Nom"> Nom: * </label> <input type="text" class="cNom" name="Nom">
+					<p class="Prénom">Prénom: * <input type="text" class="cPrénom" name="Prénom"></td>
+				</tr>
+				<tr>
+					<td class="Adresse"></br>Adresse: * <input type="text" class="cAdresse" name="Adresse">
+					<p class="CP">Code Postal: * <input type="text" class="cCP" name="CodePostal"></td>
+				</tr>
+				<tr>
+					<td class="Ad2"></br><input type="text" class="cAdresse2" name="Adresse2">
+					<p class="Ville">Ville: * <input type="text" class="cVille" name="Ville"></td>
+				</tr>
+				<tr>
+					<td class="Email"></br>Email: * <input type="text" class="cEmail" name="Email">
+					<p class="Conf">Confirmez votre email: * <input type="text" class="cConf" name="ConfirmationMail"></td>
+				</tr>
+				<tr>
+					<td class="E"> Un email valide est indispensable car la réception des billets se fait par email.</td>
+				</tr>
+				<tr>
+					<td></br><input type="Checkbox" name="EtreInform"> Cochez la case pour être informé des bons plans du salon </td>
+				</tr>
+				<tr>
+					<td class="Rens"></br> *Renseignements obligatoires</td>
+				</tr>
+			</table>
+			
+			<input type="submit" class="button" value="Confirmer" style="font-weight:bold"/>
+			</br></br>
+			
+		</form>
+	</body>	
+		
+</html>
